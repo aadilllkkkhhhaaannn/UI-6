@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@300&family=Poppins:wght@200;300&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300&family=Titillium+Web:wght@600&family=Whisper&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body{
+    overflow-x: hidden;
+}
+.navbar-2 ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    gap: 30px;
+}
+.navbar-3 button{
+    width: 45%;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-right: 100px;
+    border-radius: 4px;
+    height: 33px;
+}
+.navbar-1 h1{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.nvbr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.mn-part h1,h2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-left: 300px;
+
+    font-weight: bold;
+}
+.new_arrivals{
+    margin-left: 310px;
+    position: relative;
+    bottom: 150px;
+}
+.new_arrivals .btn_1 {
+    height: 45px;
+    width: 140px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+  }
+  .new_arrivals .btn_2 {
+    height: 45px;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 10px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 80px;
+  }
+
+.mn-part h2{
+    position: relative;
+    bottom: 90px;
+    font-size: 53px;
+}
+.mn-part p{
+    font-size: 11px;
+    margin-left: 350px;
+    position: relative;
+    bottom: 80px;
+    font-weight: bold;
+}
+.img img{
+    height: 300px;
+    margin-top: 120px;
+
+}
+.img-a{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    height: 300px;
+    bottom: 350px;
+}
+
+.text-part{
+    display: flex;
+}
+.last-img img{
+    height: 387px;
+    position: relative;
+    bottom: 350px;
+}
